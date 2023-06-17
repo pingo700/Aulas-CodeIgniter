@@ -1,5 +1,9 @@
 # TECHBOX - CodeIgniter
 
+## Setup do projeto
+```
+php spark serve
+```
 ## Descrição do projeto
 O projeto é um sistema de gerenciamento de dados que utiliza a biblioteca DataTable e o framework CodeIgniter para criar uma interface interativa e eficiente na exibição, filtragem e manipulação de informações tabulares.
 
