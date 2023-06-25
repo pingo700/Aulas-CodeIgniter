@@ -1,0 +1,20 @@
+CRITICAL - 2023-06-25 00:00:45 --> CodeIgniter\Validation\Validation::withRequest(): Argument #1 ($request) must be of type CodeIgniter\HTTP\RequestInterface, null given, called in C:\xamppp\htdocs\PHP-DataTable\system\Controller.php on line 140
+in SYSTEMPATH\Validation\Validation.php on line 401.
+ 1 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->withRequest(null)
+ 2 APPPATH\Controllers\Usuario.php(11): CodeIgniter\Controller->validate([...], [...])
+ 3 APPPATH\Controllers\Home.php(8): App\Controllers\Usuario->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xamppp\\htdocs\\PHP-DataTable\\public\\index.php')
+CRITICAL - 2023-06-25 00:00:58 --> CodeIgniter\Validation\Validation::withRequest(): Argument #1 ($request) must be of type CodeIgniter\HTTP\RequestInterface, null given, called in C:\xamppp\htdocs\PHP-DataTable\system\Controller.php on line 140
+in SYSTEMPATH\Validation\Validation.php on line 401.
+ 1 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->withRequest(null)
+ 2 APPPATH\Controllers\Usuario.php(11): CodeIgniter\Controller->validate([...], [...])
+ 3 APPPATH\Controllers\Home.php(8): App\Controllers\Usuario->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xamppp\\htdocs\\PHP-DataTable\\public\\index.php')

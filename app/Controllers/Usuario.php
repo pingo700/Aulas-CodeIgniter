@@ -7,6 +7,35 @@ use CodeIgniter\Controller;
 class Usuario extends BaseController
 {
 
+    function __construct() {
+        // $error = $this->validate(
+        // [
+        //     'nome'       => 'required',
+        //     'categoria'  => 'required',
+        //     'email'      => 'required',
+        //     'senha'      => 'required'
+        // ],
+        // [
+        //     'nome'       => [
+        //         'required' => "O campo nome é obrigatório."
+        //     ],
+        //     'categoria'       => [
+        //         'required' => "O campo categoria é obrigatório."
+        //     ],
+        //     'email'       => [
+        //         'required' => "O campo email é obrigatório."
+        //     ],
+        //     'senha'       => [
+        //         'required' => "O campo senha é obrigatório."
+        //     ]
+        // ]
+        // );
+
+        // if($error){
+        //      return $this->validaton;
+        // }
+    }
+
     public function ModalUsuario(int $ID){
         $usuarioModel = new UsuarioModel();
         return view('ModalViews/UsuarioModal',['dados' => $usuarioModel->where('id', $ID)->orderBy('id')->first()]);

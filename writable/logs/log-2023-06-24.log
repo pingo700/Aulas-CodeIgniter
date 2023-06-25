@@ -1,0 +1,28 @@
+CRITICAL - 2023-06-24 23:37:46 --> Call to a member function getMethod() on null
+in APPPATH\Controllers\Usuario.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Usuario->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xamppp\\htdocs\\PHP-DataTable\\public\\index.php')
+CRITICAL - 2023-06-24 23:39:06 --> Call to a member function getMethod() on null
+in APPPATH\Controllers\Usuario.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Usuario->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xamppp\\htdocs\\PHP-DataTable\\public\\index.php')
+CRITICAL - 2023-06-24 23:39:39 --> Call to a member function getMethod() on null
+in APPPATH\Controllers\Usuario.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Usuario->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xamppp\\htdocs\\PHP-DataTable\\public\\index.php')
+CRITICAL - 2023-06-24 23:40:25 --> Call to a member function getPost() on null
+in APPPATH\Controllers\Usuario.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Usuario->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xamppp\\htdocs\\PHP-DataTable\\public\\index.php')
