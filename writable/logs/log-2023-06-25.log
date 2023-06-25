@@ -18,3 +18,11 @@ in SYSTEMPATH\Validation\Validation.php on line 401.
  6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
  8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xamppp\\htdocs\\PHP-DataTable\\public\\index.php')
+CRITICAL - 2023-06-25 19:25:55 --> Call to a member function setStatusCode() on null
+in APPPATH\Controllers\Usuario.php on line 37.
+ 1 APPPATH\Controllers\Home.php(8): App\Controllers\Usuario->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xamppp\\htdocs\\PHP-DataTable\\public\\index.php')

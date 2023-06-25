@@ -70,7 +70,7 @@ $(document).ready(function () {
                         Swal.fire({
                             icon: textStatus,
                             title: 'Oops...',
-                            text: errorThrown,
+                            text: jqXHR['responseText'],
                             confirmButtonColor: "#f52525",
                         });
                     }
@@ -114,7 +114,7 @@ $("form").submit(function (e) {
                 Swal.fire({
                     icon: 'error',
                     title: 'Oops...',
-                    text: msg,
+                    text: jqXHR['responseText'],
                     confirmButtonColor: "#f52525",
                 });
             });

@@ -48,6 +48,7 @@ class Usuario extends BaseController
     }
 
     public function CadastrarUsuario(){
+        //return $this->response->setStatusCode(500)->setBody('Teste Ajax');
         $usuarioModel = new UsuarioModel();
         $data = [
             'nome'       => $this->request->getVar('Nome'),
